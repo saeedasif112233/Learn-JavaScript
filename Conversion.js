@@ -13,3 +13,13 @@ console.log(typeof (scoreIntoNum));
 //null => 0
 //undefined => NaN
 
+// conversion to boolean
+
+let num = 2 
+
+console.log(typeof(num));
+
+let numToBoolean = Boolean(num)
+
+console.log(typeof (numToBoolean));
+console.log( (numToBoolean));
